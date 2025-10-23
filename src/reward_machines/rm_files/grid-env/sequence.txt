@@ -1,0 +1,7 @@
+'r','g','b','c','t'
+'r&c','r&t','g&c','g&t','b&c','b&t','r&!t','g&!t','b&!t'
+0 # initial state
+[3] # terminal state
+(0,1,'r&t',ConstantRewardFunction(0))
+(1,2,'g&t',ConstantRewardFunction(0))
+(2,3,'b&t',ConstantRewardFunction(1))

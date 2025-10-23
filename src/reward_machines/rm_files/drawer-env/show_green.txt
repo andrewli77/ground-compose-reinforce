@@ -1,0 +1,7 @@
+'drawer1_open','drawer2_open','rbox_lifted','gbox_lifted','bbox_lifted','rbox_in_drawer1','gbox_in_drawer1','bbox_in_drawer1','rbox_in_drawer2','gbox_in_drawer2','bbox_in_drawer2'
+'gbox_in_drawer1&drawer1_open','gbox_in_drawer2&drawer2_open','!gbox_in_drawer1&!gbox_in_drawer2','gbox_in_drawer1&!drawer1_open','gbox_in_drawer2&!drawer2_open'
+0 # initial state
+[2] # terminal state
+(0,1,'gbox_in_drawer1&drawer1_open|gbox_in_drawer2&drawer2_open|!gbox_in_drawer1&!gbox_in_drawer2',ConstantRewardFunction(0))
+(1,0,'gbox_in_drawer1&!drawer1_open|gbox_in_drawer2&!drawer2_open',ConstantRewardFunction(0))
+(1,2,'gbox_lifted',ConstantRewardFunction(10))
