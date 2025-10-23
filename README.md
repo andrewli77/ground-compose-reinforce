@@ -21,7 +21,7 @@ All code was tested with the following settings: Python 3.9, PyTorch 2.0.1, NumP
 - Our code can be run with minimal changes (e.g. running `python scripts/metaworld_scripts/visualize_policy.py` should execute a trained policy).
 - Most scripts are easily configurable just by changing the `env` and `rm_task` options in `config.py` (hyperparameter settings are also found in this file). 
 
-**IMPORTANT**: Remember to correctly set `env` and `rm_task` in `config.py` before running any scripts. 
+**IMPORTANT**: Remember to correctly set `env` and `rm_task` in `config.py` before running any scripts. Run code from this directory (set `export PYTHONPATH=.` to make sure all modules load properly).  
 
 ## Manually play with the environments.
 - Meta-World: `python scripts/metaworld_scripts/manual_control.py` (see header comments for keyboard controls)
